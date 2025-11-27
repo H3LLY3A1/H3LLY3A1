@@ -1,4 +1,4 @@
-<!-- GitHub Profile README for H3LLY3A1 -->
+<!-- README.md for H3LLY3A1 (Glitch theme) -->
 
 
 ![header](./header.svg)
@@ -8,10 +8,17 @@
 ### aka **H3LLY3A1**
 
 
-**Backend & Full‑stack Developer | Node.js • TypeScript • Rust • DevOps**
+**Backend & Full-stack Developer • Node.js • TypeScript • Rust • DevOps**
 
 
-I build fast backend systems, clean APIs, automated workflows, and explore Rust to push performance even further. I love problem‑solving, DevOps tooling, and making development smoother for everyone.
+I build resilient backend systems, fast APIs, and automation that just works — with a bit of chaotic charm.
+
+
+---
+
+
+## 💥 Glitch Vibe
+This profile rocks a glitch animated header (SVG) — subtle channel splits, scanlines, and jitter — to give a cyberpunk / hacker aesthetic while staying accessible and lightweight.
 
 
 ---
@@ -20,8 +27,8 @@ I build fast backend systems, clean APIs, automated workflows, and explore Rust 
 ## 🚀 About Me
 - 🔧 **Tech I enjoy:** Node.js, TypeScript, Rust, Docker, PostgreSQL
 - 🧩 **Interests:** systems design, automation, clean architecture
-- 🌱 **Currently learning:** Rust + advanced distributed systems
-- ☕ Fun fact: "One more refactor" usually means two
+- 🌱 **Currently learning:** Rust + distributed systems
+- ☕ Fun fact: I fix a bug, then find three more to improve
 
 
 ---
@@ -40,17 +47,25 @@ I build fast backend systems, clean APIs, automated workflows, and explore Rust 
 ## 📊 GitHub Stats
 
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=H3LLY3A1&layout=compact&theme=onedark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=H3LLY3A1&layout=compact&theme=radical)
 
 
-![Stats](https://github-readme-stats.vercel.app/api?username=H3LLY3A1&show_icons=true&theme=onedark)
+![Stats](https://github-readme-stats.vercel.app/api?username=H3LLY3A1&show_icons=true&theme=radical)
 
 
 ---
 
 
-### How to use this
+## 🌐 Links
+- 🌍 Website: https://h3lly3a1.github.io
+- 🐦 X/Twitter: https://x.com/h3lly3a1
+- 💬 Discord: your-tag-here
+
+
+---
+
+
+### How to use
 1. Create a repo named **H3LLY3A1**.
-2. Add this README as `README.md`.
-3. Add `header.svg` from the same folder.
-4. Commit & push — GitHub will render everything instantly.
+2. Add `README.md` and `header.svg` to the repository root.
+3. Commit & push — GitHub will render the animated header inline.

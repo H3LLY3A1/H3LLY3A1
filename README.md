@@ -1,59 +1,56 @@
-<!-- README.md for GitHub profile -->
+<!-- GitHub Profile README for H3LLY3A1 -->
 
 
 ![header](./header.svg)
 
 
-# Hi, I’m Błażej Kowal 👋
+# 👋 Hi, I'm Błażej Kowal
+### aka **H3LLY3A1**
 
 
-**Backend / Full‑stack developer | Open-source enthusiast**
+**Backend & Full‑stack Developer | Node.js • TypeScript • Rust • DevOps**
 
 
-- 🔭 I’m currently building small, useful tools and improving code quality
-- 🌱 I’m learning advanced TypeScript patterns and distributed systems
-- 💬 Ask me about Node.js, Rust, Docker, CI/CD and clean architecture
-- ⚡ Fun fact: I love algorithmic puzzles and coffee ☕
-
-
-## 🔧 Tech & Tools
-
-
-- **Languages:** TypeScript, JavaScript, Rust, Python
-- **Frameworks/Platforms:** Node.js, Express, Fastify, React
-- **DevOps / Infra:** Docker, GitHub Actions, Kubernetes (basic)
-- **Databases:** PostgreSQL, Redis
-
-
-## 📈 GitHub Stats
-
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-GITHUB-USERNAME&layout=compact&theme=onedark)
-
-
-![Stats](https://github-readme-stats.vercel.app/api?username=YOUR-GITHUB-USERNAME&show_icons=true&theme=onedark)
-
-
-> Replace `YOUR-GITHUB-USERNAME` above with your GitHub username.
-
-
-## 📫 Contact
-
-
-- Email: `your.email@example.com`
-- Website / Portfolio: `https://your-site.example` (optional)
+I build fast backend systems, clean APIs, automated workflows, and explore Rust to push performance even further. I love problem‑solving, DevOps tooling, and making development smoother for everyone.
 
 
 ---
 
 
-### How to install
+## 🚀 About Me
+- 🔧 **Tech I enjoy:** Node.js, TypeScript, Rust, Docker, PostgreSQL
+- 🧩 **Interests:** systems design, automation, clean architecture
+- 🌱 **Currently learning:** Rust + advanced distributed systems
+- ☕ Fun fact: "One more refactor" usually means two
 
 
-1. Create a new repository on GitHub named exactly like your GitHub username (e.g. `blazejkowal`).
-2. Add the `README.md` file (content above) to the repository root.
-3. Add the `header.svg` file (provided below) to the repository root.
-4. Commit and push — GitHub will render the README automatically on your profile.
+---
 
 
-That's it. Enjoy your animated GitHub profile header!
+## 🛠️ Tech Stack
+**Languages:** TypeScript, JavaScript, Rust, Python
+**Frameworks:** Node.js, Fastify, Express, React
+**DevOps:** Docker, GitHub Actions, CI/CD
+**Databases:** PostgreSQL, Redis
+
+
+---
+
+
+## 📊 GitHub Stats
+
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=H3LLY3A1&layout=compact&theme=onedark)
+
+
+![Stats](https://github-readme-stats.vercel.app/api?username=H3LLY3A1&show_icons=true&theme=onedark)
+
+
+---
+
+
+### How to use this
+1. Create a repo named **H3LLY3A1**.
+2. Add this README as `README.md`.
+3. Add `header.svg` from the same folder.
+4. Commit & push — GitHub will render everything instantly.

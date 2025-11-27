@@ -1,26 +1,78 @@
-<!-- header.svg - glitch animated initials BK for Błażej Kowal (H3LLY3A1) -->
-<svg width="100%" height="200" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<linearGradient id="glitchGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-<stop offset="0%" stop-color="#ff00cc"/>
-<stop offset="100%" stop-color="#00ccff"/>
-</linearGradient>
-<filter id="glitch">
-<feColorMatrix type="matrix" values="1 0 0 0 0
-0 1 0 0 0
-0 0 1 0 0
-0 0 0 1 0"/>
-<feOffset dx="2" dy="0" result="r"/>
-<feOffset dx="-2" dy="0" result="g"/>
-<feBlend in="r" in2="g" mode="screen"/>
-</filter>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070012"/>
+      <stop offset="1" stop-color="#001033"/>
+    </linearGradient>
 
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00eaff33"/>
+      <stop offset="0.5" stop-color="#00eaff00"/>
+      <stop offset="1" stop-color="#00eaff33"/>
+    </linearGradient>
 
-<rect width="100%" height="100%" fill="#0d0d0d"/>
+    <filter id="rgbSplit">
+      <!-- red -->
+      <feOffset in="SourceGraphic" dx="2" dy="0" result="r"/>
+      <feColorMatrix in="r" type="matrix" values="1 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0" result="rcol"/>
+      <!-- blue -->
+      <feOffset in="SourceGraphic" dx="-2" dy="0" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 1 0 0  0 0 0 1 0" result="bcol"/>
+      <feBlend in="rcol" in2="bcol" mode="screen" result="blend"/>
+      <feBlend in="SourceGraphic" in2="blend" mode="normal"/>
+    </filter>
 
+    <style type="text/css"><![CDATA[
+      .name {
+        font-family: "Orbitron", "Segoe UI", Roboto, sans-serif;
+        font-weight: 800;
+        font-size: 64px;
+        fill: #00eaff;
+        letter-spacing: 2px;
+        paint-order: stroke fill;
+      }
+      @keyframes pulse {
+        0% { filter: drop-shadow(0 0 8px #00eaff); opacity: 1; }
+        50% { filter: drop-shadow(0 0 18px #00eaff); opacity: 0.92; }
+        100% { filter: drop-shadow(0 0 8px #00eaff); opacity: 1; }
+      }
+      @keyframes scanMove {
+        from { transform: translateY(-120%); }
+        to   { transform: translateY(120%); }
+      }
+      .pulse { animation: pulse 2.2s ease-in-out infinite; }
+      .scan { animation: scanMove 5.5s linear infinite; mix-blend-mode: screen; }
+      .glitchA { animation: translateX 1.6s steps(2, end) infinite; }
+      @keyframes translateX {
+        0% { transform: translateX(0); }
+        25% { transform: translateX(-2px); }
+        50% { transform: translateX(2px); }
+        75% { transform: translateX(-1px); }
+        100% { transform: translateX(0); }
+      }
+    ]]></style>
+  </defs>
 
-<text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
-font-family="'Segoe UI', sans-serif" font-size="72" font-weight="900"
-fill="url(#glitchGrad)" filter="url(#glitch)">H3LLY3A1</text>
+  <!-- background -->
+  <rect width="1200" height="200" fill="url(#g)"/>
+
+  <!-- subtle cyan scan overlay -->
+  <g opacity="0.18">
+    <rect width="1200" height="200" fill="url(#scan)"/>
+    <rect class="scan" x="-200" y="-350" width="1600" height="320" fill="url(#scan)" opacity="0.18"/>
+  </g>
+
+  <!-- main name (base) -->
+  <text class="name pulse" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" filter="url(#rgbSplit)">
+    BŁAŻEJ KOWAL
+  </text>
+
+  <!-- two subtle glitch layers for RGB feel (only visual, same text) -->
+  <text class="name glitchA" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#ff2dfc" opacity="0.12" transform="translate(0,-0.6)">
+    BŁAŻEJ KOWAL
+  </text>
+  <text class="name glitchA" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#00eaff" opacity="0.09" transform="translate(0,0.8)">
+    BŁAŻEJ KOWAL
+  </text>
 </svg>

@@ -1,0 +1,73 @@
+<!-- header.svg - animated initials BK for Błażej Kowal (H3LLY3A1) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Błażej Kowal">
+<defs>
+<linearGradient id="g" x1="0" x2="1">
+<stop offset="0%" stop-color="#0ea5a4"/>
+<stop offset="50%" stop-color="#7c3aed"/>
+<stop offset="100%" stop-color="#ef4444"/>
+</linearGradient>
+<filter id="f1" x="-50%" y="-50%" width="200%" height="200%">
+<feGaussianBlur stdDeviation="8" result="b"/>
+<feBlend in="SourceGraphic" in2="b" mode="screen"/>
+</filter>
+<clipPath id="cp">
+<rect x="0" y="0" width="1200" height="280" rx="18" ry="18"/>
+</clipPath>
+<style><![CDATA[
+@keyframes floatY { 0% { transform: translateY(0px) } 50% { transform: translateY(-8px) } 100% { transform: translateY(0px) } }
+@keyframes shimmer { 0% { x: -400px } 100% { x: 1200px } }
+.bg { fill: rgba(15,23,42,0.95); }
+.card { fill: url(#g); filter:url(#f1); }
+.initials { font-family: Inter, ui-sans-serif, system-ui; font-weight: 900; letter-spacing: -6px; fill: white; font-size: 150px; }
+.name { font-family: Inter, ui-sans-serif; fill: #cbd5e1; font-size:22px }
+.particle { fill: white; opacity:0.08 }
+.float { animation: floatY 4s ease-in-out infinite }
+.shimmer rect { animation: shimmer 2.8s linear infinite }
+]]></style>
+</defs>
+
+
+<rect class="bg" width="1200" height="280" rx="18"/>
+<g clip-path="url(#cp)">
+
+
+<g transform="translate(80,40)">
+<circle class="particle float" cx="40" cy="40" r="8" />
+<circle class="particle" cx="120" cy="30" r="6" style="animation-delay:0.6s"/>
+<circle class="particle float" cx="200" cy="60" r="10" style="animation-delay:1s"/>
+<circle class="particle" cx="540" cy="50" r="5" style="animation-delay:1.4s"/>
+<circle class="particle float" cx="980" cy="70" r="9" style="animation-delay:0.2s"/>
+</g>
+
+
+<g transform="translate(60,40)">
+<rect x="0" y="0" width="1080" height="200" rx="14" class="card" opacity="0.12"/>
+</g>
+
+
+<g transform="translate(120,190)">
+<text class="initials" x="0" y="0">BK</text>
+</g>
+
+
+<g transform="translate(450,90)">
+<text class="name" x="0" y="0">Błażej Kowal (H3LLY3A1)</text>
+<text class="name" x="0" y="34">Backend & Full‑stack Developer — Node • Rust • DevOps</text>
+</g>
+
+
+<g class="shimmer" transform="translate(0,140)">
+<rect x="-400" y="-10" width="600" height="3" rx="1" fill="white" opacity="0.06"/>
+<rect x="-400" y="-10" width="200" height="3" rx="1" fill="white" opacity="0.12"/>
+</g>
+
+
+<g transform="translate(450,140)">
+<rect x="0" y="0" width="390" height="88" rx="10" fill="rgba(255,255,255,0.03)"/>
+<text class="name" x="16" y="28">⭐ Top languages: TypeScript, Rust</text>
+<text class="name" x="16" y="56">⚡ Focus: APIs, automation, infrastructure</text>
+</g>
+
+
+</g>
+</svg>

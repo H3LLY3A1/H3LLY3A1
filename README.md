@@ -76,11 +76,6 @@ I love exploring the deep structure behind how things work — from low-level pr
 </p>
 
 
-### 🔝 Top Contributed Repos
-
-![](https://github-contributor-stats.vercel.app/api?username=H3LLY3A1&limit=5&theme=dark&combine_all_yearly_contributions=true)
-
-
 <div>
   <img style="width:100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&theme=cobalt" />
 </div>

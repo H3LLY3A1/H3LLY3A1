@@ -16,7 +16,6 @@ I love exploring the deep structure behind how things work — from low-level pr
 - Learning new technologies and pushing myself into harder topics  
 
 ### 🎯 My goals:
-- Contribute to open-source & build useful developer tools  
 - Master system architecture and scalable backend development  
 - Improve in computational logic & theoretical CS  
 - Build smarter AI-powered applications  
